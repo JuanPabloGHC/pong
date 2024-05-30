@@ -1,6 +1,52 @@
 # Pong
 
+## Author
+
+Juan Pablo Gómez Haro Cabrera
+
+## Technologies
+
+[TypeScript](https://www.typescriptlang.org/)
+
+[HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+
+[CSS](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+[ANGULAR](https://angular.dev/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
+
+## Architecture
+
+```plain
+└──📁/src
+   ├──📁/app
+   │   ├──📁ball [ball.component]
+   │   ├──📁footer [footer.component]
+   │   ├──📁game [game.component]
+   │   ├──📁paddle [paddle.component]
+   │   ├──📁topbar [topbar.component]
+   │   ├──📄[app.component]
+   │   ├──📄ball.ts
+   │   ├──📄[game.service]
+   │   ├──📄game.ts
+   │   └──📄player.ts
+   │
+   ├──📄index.html
+   ├──📄main.ts
+   └──📄styles.css
+```
+
+* .component
+    * Includes the HTML, CSS, TYPESCRIPT and TEST files.
+* .service
+    * Inlcudes the service file with its test file
+* Ball
+    * The ball of the pong (a square)
+* Paddle
+    * The players (a rectangle)
+* Game
+    * The scene, the players information and buttons to pause/play and restart
 
 ## Development server
 
