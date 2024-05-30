@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+    min-height: 100vh;
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hr {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 1px;
+    border-width: 0;
+    background-color: pink;
+}
+
+.screen {
+    width: 700px;
+    height: 700px;
+    border: 3px solid pink;
+    border-radius: 5px;
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    border: 3px solid pink;
+    border-radius: 40px;
+    background-color: transparent;
+    color: pink;
+    font-size: 25px;
+    width: 200px;
+    padding: 20px;
+}
+button:hover {
+    background-color: pink;
+    color: black;
+}

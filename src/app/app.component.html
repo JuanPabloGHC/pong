@@ -1,0 +1,9 @@
+<main class="main">
+  <app-topbar />
+
+  <div class="content">
+    <app-game [game]=game (goalEvent)="goal($event)"/>
+  </div>
+
+  <app-footer class="footer" />
+</main>
