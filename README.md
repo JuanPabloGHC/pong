@@ -48,6 +48,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Game
     * The scene, the players information and buttons to pause/play and restart
 
+## Deploy
+
+[PONG WITH ANGULAR](https://jpghc-pong.onrender.com)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
